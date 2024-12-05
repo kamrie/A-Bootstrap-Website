@@ -4,357 +4,246 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bookstore</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg bg-dark  navbar-dark fixed-top"  style="height: 50px;">
-          <div class="container-lg ">
-            <a class="navbar-brand" href="#">Navbar</a>
-          
-                                                           
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" style="height: 50px;">
+      <div class="container-lg">
+          <a class="navbar-brand" href="#">Book Haven</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">     
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Inside the book">About The Book</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link " href="#book-review">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Getting in touch">Get in Touch</a>
-              </li>
-              <li class="nav-item">
-               <a  class="nav-link btn btn-secondary"  href="#pricing">Buy Now</a>
-              </li>
-            </ul>
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#mainarea">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Inside the book">Genres</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#book-review">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Getting in touch">Contact Us</a>
+                  </li>
+              </ul>
           </div>
-        </div>
-      </nav>
+      </div>
+  </nav>
 
-      <section></section>
+  <section id="mainarea" class="mt-5">
+      <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-5 col-8 text-center text-md-start">
+                  <h1>
+                      <div class="display-5 fw-bold">Welcome to</div>
+                      <div class="display-5 text-muted fw-bold">Book Haven</div>
+                  </h1>
+                  <p class="text-muted lead">
+                      Your one-stop shop for books that inspire, educate, and entertain.
+                  </p>
+                  <a href="#pricing" class="btn btn-success">Shop Now</a>
+              </div>
+              <div class="col-md-4">
+                  <img src="/imgs/Library.png" class=" d-none d-md-block" width="150%" alt="Bookstore">
+              </div>
+          </div>
+      </div>
+  </section>
 
-
-      <section id="mainarea">
-         <div class="container-lg">
-            <div class="row justify-content-center align-items-center">
-                <div  class="col-md-5 col-8 text-center text-md-start">
-                    <h1>
-                        <div class="display-5">Black-belt</div>
-                        <div  class="display-5 text-muted">Your Coding Skills</div>
-                    </h1>
-
-                    <p class="  text-muted lead">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </p>
-
-                    <a href="" class="btn btn-success">Buy now</a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeftt">Toggle right offcanvas</button>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="/imgs/images.png" class="img-fluid d-none d-md-block" width="120%" alt="">
-
-                </div>
-                
-
-            </div>
-
-         </div>
-      </section>
-
-      <section id="pricing"  class="bg-light">      
-        <div class="container-lg">         
-            <div  class="text-center">
-                <h1>Pricing plans</h>
-                <p class="text-muted lead">Choose a pricing plan to suit you </p>
-            </div>
-
-            <div class="row justify-content-center align-items-center g-0">
-                <div class="col-lg-4 col-8">
-                    <div class="card border-0 text-center">
-                  
-                        <!-- <img src="..." class="card-img-top" alt="..."> -->
-                        <div class="card-body">
-                          <h5 class="card-title ">Starter Edition </h5>
-                          <p class="card-subtitle lead">
-                            eBook download only
-                          </p>
-                          <p class="fw-bold display-5  text-primary py-4">$12.99</p>
-                          <p class="card-text text-muted px-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-outline-primary">Buy Now</a>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col-lg-4  my-5">
-                    <div class="card border-primary text-center" >
-                        <div class="card-header">Most Popular</div>
-                        <!-- <img src="..." class="card-img-top" alt="..."> -->
-                        <div class="card-body">
-                          <h5 class="card-title  ">Starter Edition</h5>
-                          <p class="card-subtitle lead">
-                            eBook, downloads & all update
-                          </p>
-                          <p class="fw-bold display-5 text-primary py-4">$18.99</p>
-                          <p class="card-text text-muted px-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-outline-primary">Buy Now</a>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col-lg-4  ">
-                    <div class="card border-0 text-center" >
-                        <!-- <img src="..." class="card-img-top" alt="..."> -->
-                        <div class="card-body">
-                          <h5 class="card-title">Ultimate Edition</h5>
-                          <p class="card-subtitle lead">
-                            eBook download, updates & extras
-                          </p>
-                          <p class="fw-bold display-5 text-primary py-4">$24.99</p>
-                          <p class="card-text text-muted px-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-outline-primary">Buy Now</a>                    
-                        </div>
-                      </div>
-                </div>                                    
-            </div>
-        </div>
-      </section>
-
-      <section id="Inside the book" >
-        <div class=" container-lg" >
+  <section id="pricing" class="bg-light">
+      <div class="container-lg">
           <div class="text-center">
-            <h2> Inside the book </h2>
-            <p class="lead"> A quick glance at the topics you'll learn</p>
+              <h1>Our Collections</h1>
+              <p class="text-muted lead">Explore our exclusive book collections</p>
           </div>
-
-
-          <div class="row justify-content-center align-items-center g-6 ">
-            <div class="col-lg-5">
-              <img src="/imgs/images.png" class="img-fluid d-none d-md-block"   width="120%"    alt="">
-            </div>
-
-          
-
-            <div class="col-lg-6 g-0">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Chapter 1- your first chapter
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. 
-                    </div>
+          <div class="row justify-content-center align-items-center g-4">
+              <div class="col-lg-4 col-8">
+                  <div class="card border-0 text-center">
+                      <div class="card-body">
+                          <h5 class="card-title">Classic Reads</h5>
+                          <p class="card-subtitle lead">Timeless literature for all ages</p>
+                          <p class="fw-bold display-5 text-primary py-4">$15.99</p>
+                          <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                      </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Chapter 2- Mastering CSS
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     Chapter 3- Understanding Java script
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
-                    </div>
-                  </div>
-                </div>
               </div>
-
-            </div>
+              <div class="col-lg-4">
+                  <div class="card border-primary text-center">
+                      <div class="card-header">Bestsellers</div>
+                      <div class="card-body">
+                          <h5 class="card-title">Top Picks</h5>
+                          <p class="card-subtitle lead">Books loved by millions</p>
+                          <p class="fw-bold display-5 text-primary py-4">$20.99</p>
+                          <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card border-0 text-center">
+                      <div class="card-body">
+                          <h5 class="card-title">New Arrivals</h5>
+                          <p class="card-subtitle lead">Fresh releases for book lovers</p>
+                          <p class="fw-bold display-5 text-primary py-4">$12.99</p>
+                          <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-      </section>
+      </div>
+  </section>
 
-      <section id="book-review" class="bg-light  ">
-
-        <div class=" container-lg">
+  <section id="Inside the book">
+      <div class="container-lg">
           <div class="text-center">
-            <h5>Book Reviews</h5>
-            <p  class="lead"> What my  students have about the book</p>
-         </div>
-         <div class="row align-items-center justify-content-center ">
-            <div class="col-lg-8">
-              
-              <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small>3 days ago</small>
-                  </div>
-                  <p class="mb-1">Some placeholder content in a paragraph.</p>
-                  <small>And some small print.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small class="text-muted">3 days ago</small>
-                  </div>
-                  <p class="mb-1">Some placeholder content in a paragraph.</p>
-                  <small class="text-muted">And some muted small print.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small class="text-muted">3 days ago</small>
-                  </div>
-                  <p class="mb-1">Some placeholder content in a paragraph.</p>
-                  <small class="text-muted">And some muted small print.</small>
-                </a>
-              </div>           
-            </div>
-         </div>
-        </div>
-      </section>
-
-
-
-      <section id="Getting in touch"  class="  g-4" >
-        <div  class="container-lg ">
-          <div class="text-center">
-            <h4 class=""> Get in Touch</h4>
-
-            <p class="lead">Questions to ask? fill in the the form below</p>
+              <h2>Featured Book: "Journey to Knowledge"</h2>
+              <p class="lead">A sneak peek at its chapters</p>
           </div>
-
-          <div  class="row justify-content-center align-items-center">
-            <div class="col-lg-7 ">
-              <div class="mb-3">
-                <label for="" class="mb-2">Email address</label>
-                <div class="input-group flex-nowrap">
-                  <span class="input-group-text" id="addon-wrapping">@</span>
-                  <input type="text" class="form-control" placeholder="Name@example.com" aria-label="Username" aria-describedby="addon-wrapping">
-                </div>
+          <div class="row justify-content-center align-items-center g-6">
+              <div class="col-lg-5">
+                  <img src="/imgs/book1.png" class="img-fluid d-none d-md-block" width="100%" alt="Book Cover">
               </div>
-             
-
-              <label for="" class="mb-2">Name</label>
-              <div class="input-group flex-nowrap">
-                <span class="input-group-text" id="addon-wrapping">Name</span>
-                <input type="text" class="form-control" placeholder="name" aria-label="Username" aria-describedby="addon-wrapping">
-              </div>
-
-              
-
-
-              <div class="input-group flex-nowrap my-5">
-                <span class="input-group-text" id="addon-wrapping">Query</span>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Open this select menu</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-
-              <div class="">
-                <label for="">Your Query</label>
-                <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                  <label for="floatingTextarea2"></label>
-                </div>
-              </div>
-
-              <div class="text-center my-5">
-                <div class="btn btn-secondary "  >
-                  submit</div>
-              </div>
-
-              
-
-            </div>
-
-            
-
-            
-
-          </div>
-
-        </div>
-
-      </section>
-
-        <section id="stay-in-loop" class="bg-light">
-          <div class="container-lg">
-            <div class="row justify-content-center align-items-center">
               <div class="col-lg-6">
-                <div class="text-center">
-                  <h4> Stay in the loop</h4>
-                  <p class="lead"> Get the latest update as they happen</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nam quidem temporibus odio
-                    tenetur illum, perferendis numquam ex voluptate suscipit reprehenderit vitae sunt modi officiis
-                    saepe hic veritatis deserunt minima! 
-                  </p>      
-                  
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Register for Updates</button>
-                </div>
+                  <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Chapter 1: The Beginning
+                                  </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <strong>Introduction to the story's premise.</strong>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Chapter 2: The Journey Begins
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>An exciting start to the protagonist's journey.</strong> Learn how the main character embarks on their life-changing adventure.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Chapter 3: Trials and Tribulations
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>The protagonist faces their first challenges.</strong> Discover how perseverance leads to growth.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Chapter 4: A Turn of Events
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>A dramatic shift in the storyline.</strong> New allies and foes enter the picture, changing the course of the narrative.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Chapter 5: The Climax
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>The story reaches its peak of tension.</strong> Will the protagonist succeed or fail in their mission?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Chapter 6: A New Beginning
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>The resolution of the story.</strong> The protagonist reflects on their journey and what lies ahead.
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                  </div>
               </div>
-            </div>
           </div>
-      </section>
-             
-          <!-- modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+      </div>
+  </section>
+
+  <section id="book-review" class="bg-light">
+      <div class="container-lg">
+          <div class="text-center">
+              <h5>Reader Reviews</h5>
+              <p class="lead">What our readers say</p>
           </div>
-        </div>
+          <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action active">
+                  <h5 class="mb-1">"A masterpiece!"</h5>
+                  <p class="mb-1">This book has transformed the way I think about learning.</p>
+              </a>
+              <!-- Add more reviews -->
+              <a href="#" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">"Incredibly insightful!"</h5>
+                <p class="mb-1">Every chapter feels like a conversation with the author.</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">"A must-read for everyone!"</h5>
+                <p class="mb-1">The lessons and ideas in this book are life-changing.</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">"Highly engaging and thought-provoking."</h5>
+                <p class="mb-1">I couldn’t put this book down—it’s full of wisdom!</p>
+            </a>
+            
+          </div>
       </div>
+  </section>
 
-         <!-- off canvas -->
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          ...
-        </div>
+  <section id="Getting in touch" class="mt-5">
+      <div class="container-lg">
+          <div class="text-center">
+              <h4>Contact Us</h4>
+              <p class="lead">Have questions? Fill out the form below.</p>
+          </div>
+          <form>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea class="form-control" id="message" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
       </div>
+  </section>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    
 </body>
 </html>
 
 
+
+<!--  -->
